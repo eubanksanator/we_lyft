@@ -1,0 +1,65 @@
+<%= form_for(@result) do |f| %>
+  <% if @result.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@result.errors.count, "error") %> prohibited this result from being saved:</h2>
+
+      <ul>
+      <% @result.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :exercise_id %><br>
+    <%= f.number_field :exercise_id %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id %><br>
+    <%= f.number_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :set1 %><br>
+    <%= f.number_field :set1 %>
+  </div>
+  <div class="field">
+    <%= f.label :set2 %><br>
+    <%= f.number_field :set2 %>
+  </div>
+  <div class="field">
+    <%= f.label :set3 %><br>
+    <%= f.number_field :set3 %>
+  </div>
+  <div class="field">
+    <%= f.label :set4 %><br>
+    <%= f.number_field :set4 %>
+  </div>
+  <div class="field">
+    <%= f.label :set5 %><br>
+    <%= f.number_field :set5 %>
+  </div>
+  <div class="field">
+    <%= f.label :set6 %><br>
+    <%= f.number_field :set6 %>
+  </div>
+  <div class="field">
+    <%= f.label :set7 %><br>
+    <%= f.number_field :set7 %>
+  </div>
+  <div class="field">
+    <%= f.label :set8 %><br>
+    <%= f.number_field :set8 %>
+  </div>
+  <div class="field">
+    <%= f.label :set9 %><br>
+    <%= f.number_field :set9 %>
+  </div>
+  <div class="field">
+    <%= f.label :set10 %><br>
+    <%= f.number_field :set10 %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

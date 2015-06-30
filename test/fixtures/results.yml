@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  exercise_id: 1
+  user_id: 1
+  set1: 1
+  set2: 1
+  set3: 1
+  set4: 1
+  set5: 1
+  set6: 1
+  set7: 1
+  set8: 1
+  set9: 1
+  set10: 1
+
+two:
+  exercise_id: 1
+  user_id: 1
+  set1: 1
+  set2: 1
+  set3: 1
+  set4: 1
+  set5: 1
+  set6: 1
+  set7: 1
+  set8: 1
+  set9: 1
+  set10: 1
